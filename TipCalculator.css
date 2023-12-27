@@ -1,0 +1,12 @@
+body {
+  height: 100vh;
+  display: flex;
+  background: linear-gradient(to right, #868f96 0%, #596164 100%);
+  margin-top: 10%;
+  margin-left: 40%;
+}
+
+h3 {
+  font-weight: bold;
+  color: whitesmoke;
+}

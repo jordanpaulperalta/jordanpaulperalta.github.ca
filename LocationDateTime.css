@@ -1,0 +1,17 @@
+#map {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    height: 70vh;
+    border-radius: 5px;
+  }
+  #dateTime {
+    font-size: 2em;
+    padding: 5px;
+    margin: 5px;
+  }
+  body {
+    background-color: slategrey;
+    margin: 2;
+    padding: 2;
+  }
