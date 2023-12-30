@@ -3,6 +3,11 @@
   <head>
     <title>Your Location on Google Maps</title>
     <link rel="stylesheet" href="./LocationDateTime.css" />
+    <script
+    async
+    defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9FDg182wMHYkakME7jgULxzGyr6t0m9U&callback=initMap"
+  ></script>
   </head>
   <body>
     <section>
@@ -13,17 +18,13 @@
   <div style="position: relative; flex-direction: row; display: flex; justify-content: center; display: flex; 
   justify-content: center; align-content: center;  align-items: center; 
   flex-direction: row;">
-    <a href="./Home.html" style="position: relative; margin-top: 1.5em;" ><button type="button" id="generateBtn">Home</button></a>
+    <a href="./index.html" style="position: relative; margin-top: 1.5em;" ><button type="button" id="generateBtn">Home</button></a>
   </div>
 </section>
   <section class="adSection" style="background-color: brown; height: 10em;">
     <h1> Ads </h1>
 </section>
-    <script
-      async
-      defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9FDg182wMHYkakME7jgULxzGyr6t0m9U&callback=initMap"
-    ></script>
+
     <script src="./LocationDateTime.js">
     </script>
   </body>
